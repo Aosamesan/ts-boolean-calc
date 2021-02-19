@@ -1,0 +1,21 @@
+{
+  "name": "boolean-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:pattern": "antlr4ts src/main/pattern/LogicalCalc.g4",
+    "test": "ts-node src/test/Test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "antlr4ts-cli": "^0.5.0-alpha.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "antlr4ts": "^0.5.0-alpha.4"
+  }
+}
